@@ -1,0 +1,100 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* Eric Meyer reset for css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* My custom styles */
+.UserForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.TableContainer {
+  margin-top: 2rem;  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.UserTable, ul {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.UserTable, li {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+
+.Form {
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.Form, label {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.DeleteButton {
+  color: white;
+}
+
+
+
+
+.error {
+  color: red;
+}
