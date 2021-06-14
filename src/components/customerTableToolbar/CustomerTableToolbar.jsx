@@ -30,8 +30,7 @@ const useToolbarStyles = makeStyles((theme) => ({
 
   const CustomerTableToolbar = (props) => {
     const deleteCustomer = (index) => {
-      // axios.delete('https://champ-titles-api.herokuapp.com/')
-      console.log("Hello World")
+      axios.delete('localhost:8000/customer/index').catch((error) => console.error(error))
     }
   
     const classes = useToolbarStyles();
